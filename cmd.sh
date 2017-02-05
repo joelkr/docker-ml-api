@@ -7,4 +7,5 @@ if [ "$ENV" = 'UNIT' ]; then
 else
     echo "$ENV"
     echo "Running Development Server"
-    exec /usr/bin/python3 "/home/mlapi/python-app/flask-web.py"
+    exec /usr/bin/python3 "/home/mlapi/python-app/flask_web.py"
+fi

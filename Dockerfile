@@ -24,5 +24,5 @@ EXPOSE $FLASK_PORT
 USER mlapi
 COPY python-app $HOME/python-app
 
-#CMD ["/usr/bin/python3", "/var/python-app/flask-web.py"]
+#CMD ["/usr/bin/python3", "/var/python-app/flask_web.py"]
 CMD ["/cmd.sh"]
